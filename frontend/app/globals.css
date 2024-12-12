@@ -5,28 +5,21 @@
 
 /* Estilos personalizados */
 body {
-  @apply bg-gray-100 text-gray-800 font-sans; /* Fondo claro, texto oscuro y fuente sans-serif */
+   font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
   margin: 0;
-  padding: 0;
-}
-
-header {
-  @apply bg-blue-600 text-white py-4 px-6 shadow-md; /* Fondo azul, texto blanco, padding y sombra */
-}
-
-footer {
-  @apply bg-gray-800 text-gray-200 py-6 text-center; /* Fondo gris oscuro, texto gris claro */
 }
 
 a {
-  @apply text-blue-500 underline; /* Enlaces en azul con subrayado */
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-  @apply text-blue-700; /* Cambia a azul oscuro al pasar el mouse */
+  text-decoration: underline;
 }
 
-/* Estilo para el contenedor principal */
-main {
-  @apply min-h-screen p-6; /* Ocupa al menos toda la pantalla, con padding */
+h1, h2, h3 {
+  margin: 0;
 }
